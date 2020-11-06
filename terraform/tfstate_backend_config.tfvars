@@ -1,0 +1,5 @@
+bucket   = "vuls-runner"
+key      = "vuls-runner.tfstate"
+region   = "ap-northeast-1"
+profile  = ""
+role_arn = ""
