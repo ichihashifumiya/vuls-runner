@@ -46,7 +46,7 @@ ap-northeast-1: ami-08aaade37251de75a
 
 #### `tfstate_backend_config.tfvars` 作成
 
-`terraform/tfstate_backend_config.tfvars.example` の内容を利用する環境に合わせたものに置き換える。
+`-backend-config` に渡すために、 tfstate を配置する S3 バケットに関する情報をまとめたファイルを作成する。
 
 #### `terraform init` 実行
 
